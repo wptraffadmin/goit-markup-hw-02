@@ -52,11 +52,11 @@ body {
     color: #434455;
 }
 
-.address:hover {
+.address-li:hover {
     color: #404bbf;
 }
 
-.address:focus {
+.address-li:focus {
     color: #404bbf;
 }
 
@@ -190,8 +190,12 @@ body {
     color: #f4f4fd;
 }
 
+:root {
+    --footer-color: #F4F4FD;
+}
+
 .footer-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(#F4F4FD);
+    color: var(--footer-color);
 }
